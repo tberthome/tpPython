@@ -1,14 +1,28 @@
 # Projet | Analyse de données météorologique
 
-## Objectifs
+## Consignes
+
+Utiliser par exemple Python Scipy pour les parties mathématiques
+
+-   Pour l’ échantillon SI, calculez la moyenne par mois, l'écart type par mois, la valeur min/max par mois et par année
+-   Tracer les courbes de chaque mois avec une bibliothèque graphique python
+-   Assembler les courbes sur un seul graphique (J1 -> J365)
+-   Présenter la valeur lue en parcourant la courbe à l'aide du pointeur
+-   Présenter les valeurs précédentes par mois et par année, par mois glissant de 30 jours centré sur la valeur lue
+-   Recommencez avec le jeu SI-erreur après avoir corrigé les valeurs en erreur. Précisez vos méthodes. Les données corrigées sont elles proches des valeurs sans erreur ?
+-   A partir de données opendata, retrouver le type de climat. Reprendre les données typiques d'une localisation proche fournies en complément, comparer les écarts. Qu'en concluez vous ?
+-   De quelle la capitale européenne avez vous eu les données.
+
+Outils : à utiliser Python + matplotlib, Jupyter éventuellement. Pas de R ni d’autre langage autorisés Evaluation:
+Démonstration des solutions techniques et argumentation sur les méthodes utilisées
 
 ## Configuration
 
 Python et pip doivent être installés
 
-Depuis un noveau répertoire, cloné le dépot et lancer la commande : pip install ou py -m pip install
+Depuis un noveau répertoire, cloné le dépot et lancer la commande : pip install -r requirements.txt ou py -m pip install -r requirements.txt
 
-Télécharger le jeu de données 'Climat.xlsx' et 'c...csv' et déplacer les à la racine de votre répertoire
+Télécharger le jeu de données 'Climat.xlsx' (Fournis avec les consignes) et 'city_temperature.csv' (https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities?select=city_temperature.csv) et déplacer les à la racine de votre répertoire
 
 Lancer ensuite la ligne de commande 'py tp.py' pour exécuter le programme
 
