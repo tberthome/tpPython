@@ -41,3 +41,11 @@ Des choix vous sont proposés afin d'accéder aux différentes fonctionnalités.
 3. Vous afficher la capitale européenne correspondante aux température du fichier 'Climat.xlsx'.
 
 Cette déduction est réaliser en calculant la différence de degré de température de chaque mois de chaque capitale européenne avec les données de 'Cimat.xlsx'. On réalise ensuite la somme de ces différences, regroupés par capitale. La capitale ayant la plus petite valeur correspond aux données climatiques de 'Climat.xlsx'.
+
+## Réponse aux questions
+
+1. Les données corrigées sont elles proches des valeurs sans erreur ?
+
+Pour corriger les données nous avons décidé de prendre les données du jours précédent ainsi que le jours suivant et d'en faire une moyenne. Les données retournées sont assez proches du réel.
+
+
