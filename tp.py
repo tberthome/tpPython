@@ -109,7 +109,7 @@ def menu():
 
 def menuYear():   
     try:
-        result = int(input("Quelle diagramme veux tu: 1- Un mois 2- Tous les mois  3- Par Année 4- Exit : " ))
+        result = int(input("Quelle diagramme veux tu: 1- Un mois 2- Tous les mois  3- Par Année" ))
     except ValueError:
         print("Error! This is not a number. Try again.")
     if (result == 1):
