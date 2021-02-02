@@ -40,7 +40,22 @@ Des choix vous sont proposés afin d'accéder aux différentes fonctionnalités.
 
 3. Vous afficher la capitale européenne correspondante aux température du fichier 'Climat.xlsx'.
 
-## Démmarche
+## Démarche
+
+Pour notre application nous somme partis sur une interface console qui nous propose plusieur alternative.
+![alt text](https://github.com/tberthome/tpPython/blob/main/image/Capture1.PNG?raw=true)
+
+Nous pouvons premièrement choisir la partie statistique qui nous enverra des données par mois sur le fichier à tester.
+
+![alt text](https://github.com/tberthome/tpPython/blob/main/image/CaptureMoyenne.PNG?raw=true)
+
+Nous avons ensuite la partie diagramme ou l'on peut choisir d'afficher sois un seul diagramme pour un mois rentré, des diagrammes pour les 12 mois ou un pour l'année.
+
+![alt text](https://github.com/tberthome/tpPython/blob/main/image/CaptureDia.PNG?raw=true)
+
+Pour finir nous avons une partie sur l'affichage des capitales qui nous affichera dans l'ordre les capitales avec leur différence de moyenne comparé aux fichier à tester.
+
+![alt text](https://github.com/tberthome/tpPython/blob/main/image/CaptureCapit.PNG?raw=true)
 
 Cette déduction est réaliser en calculant la différence de degré de température de chaque mois de chaque capitale européenne avec les données de 'Cimat.xlsx'. On réalise ensuite la somme de ces différences, regroupés par capitale. La capitale ayant la plus petite valeur correspond aux données climatiques de 'Climat.xlsx'.
 
